@@ -1,0 +1,55 @@
+:root {
+    --body-font: 'Quicksand', abril;
+    --color-red: #9a031e;
+    --color-bege: #f4f4df;
+    --color-marrom: #2b1b10;
+    --color-pele: #e0b975;
+
+    background-image: 'linear-gradient'(
+        210deg,
+        hsl(349deg 96% 31%) 0%,
+        hsl(359deg 46% 43%) 41%,
+        hsl(2deg 34% 49%) 56%,
+        hsl(4deg 32% 53%) 66%,
+        hsl(6deg 31% 57%) 73%,
+        hsl(9deg 31% 61%) 78%,
+        hsl(11deg 30% 64%) 82%,
+        hsl(14deg 30% 67%) 85%,
+        hsl(16deg 30% 70%) 88%,
+        hsl(20deg 31% 73%) 90%,
+        hsl(23deg 31% 75%) 92%,
+        hsl(26deg 32% 78%) 93%,
+        hsl(31deg 33% 80%) 94%,
+        hsl(35deg 35% 83%) 95%,
+        hsl(40deg 36% 85%) 96%,
+        hsl(46deg 39% 87%) 98%,
+        hsl(52deg 43% 89%) 99%,
+        hsl(60deg 49% 92%) 100%);
+}
+
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: nome;
+}
+
+a {
+    text-decoration: none;
+    color: var(#e0b975);
+}
+
+a:hover {
+    color: var(--color-pele);
+}
