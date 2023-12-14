@@ -1,0 +1,38 @@
+*{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-image: var(linear-gradient);
+    min-height: 100vh;
+    color: var(--bs-vinho);
+
+}
+
+.header-page {
+    border: 1px solid #000;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 5px;
+}
+
+.header-page ul { 
+    display: flex;
+    column-gap: 30px;
+}
+
+.btn {
+    border: 2px solid var(--color-marrom);
+    color: var(--color-marrom);
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.btn:hover {
+    background-color: var(--color-pele);
+}
